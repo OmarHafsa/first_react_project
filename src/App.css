@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@font-face {
+  font-family: 'Gumela Regular';
+  src: url(C:\Users\FAROUK\Music\React\first\public\font\Gumela_Regular.otf);
+}
+:root{
+  /*Fonts*/
+  --font-family1: 'Courgette', sans-serif;
+  /*color*/
+    --yellow: #F5C32C;
+    --orange : #FCA61F;
+    --black : #242D49;
+    --gray : #788097;
+    --blueCard : #DDF8FE;
+    --purple: rgb(238 210 255);
+    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
+    --orangeCard: rgba(252, 166, 31, 0.45);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+*{
+
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: white;
+
+}
+header{
+  height: 80px;
+}
+.navUl{
+  font-family: var(--font-family1);
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  list-style: none;
+  font-size: 40px;
+  margin-top: 40px;
+  color: var(--black);
+  margin-left: 40px;
+}
+.navUl li:hover{
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(120deg,var(--yellow),var(--orange));
+}
+.navUl .about{
+  font-family: 'Gumela Regular';
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-left: 800px;
+  font-size: 18px;
+}
+.about li{
+   margin-left: 70px;
+}
+
+.contact{
+background-image:linear-gradient(10deg,#F5C32C,#FCA61F);
+color: white;
+margin-left: 70px;
+padding: 7px 10px 7px 10px;
+border: 0px;
+border-radius: 20px;
+font-size: 18px;
+font-family: 'Gumela Regular';
+margin-top: -5px;
+box-shadow: 0px 20px 24px 3px var(--orangeCard);
+}
+.contact:hover{
+  background-image: none;
+  color: #F5C32C;
+  border: 2px solid #F5C32C;
+  background-color: white;
+}
+main{
+  margin-top: 60px;
+}
+main h1{
+  font-family: 'Gumela Regular';
+  font-size: 60px;
+  color: var(--black);
+  margin-left: 120px;
+  margin-top: 20px;
+  text-align: left;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+main .name{
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(120deg,var(--yellow),var(--orange));
+  margin-left: 58px;
+  }
+main p{
+  color: var(--black);
+  font-size: 18px;
+  font-family: var(--font-family1);
+  width: 600px;
+  text-align: left;
+  margin-top: 30px;
+  line-height: 30px;
+  margin-left: 10px;
+}
+main button{
+  background-image:linear-gradient(180deg,#F5C32C,#FCA61F);
+  color: white;
+  margin-left: 180px;
+  margin-top: 35px;
+  padding: 11px 13px 11px 13px;
+  border: 0;
+  border-radius: 20px;
+  font-size: 18px;
+  font-family: 'Gumela Regular';
+  box-shadow: 0px 20px 24px 3px var(--orangeCard);
+}
+main button:hover{
+  background-image: none;
+  color: #F5C32C;
+  border: 2px solid #F5C32C;
+  background-color: white;
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+  margin-left: 110px;
+  margin-top: 70px;
+}
+.icons img{
+  height: 50px;
+  width: 50px;
+  margin-right: 40px;
+}
+.cv{
+  display: flex;
+  flex-direction: row;
+}
+
+.right img{
+  margin-top: -50px;
+  margin-left: 40px;
+}
+.right .crown{
+  height: 70px;
+  width: 230px;
+  display: flex;
+  margin-left: 420px;
+  border: none;
+  box-shadow: 0px 20px 24px 3px rgba(250, 172, 47, 0.45);
+  border-radius: 14px;
+  margin-top: -30px;
+}
+.crown img{
+  height: 50px;
+  width: 50px;
+  margin-left: 12px;
+  margin-top: 12px;
+}
+.crown p{
+  font-family: 'Gumela Regular';
+  margin-top: 7px;
+  width: 80px;
+  margin-left: 30px;
+}
+#crown2{
+  margin-left: -5px;
+  width: 250px;
+  margin-top: 80px;
+}
+#crown2 p{
+  width: 100px;
+}
+.left2{
+  margin-top: 120px;
+}
+.left2 h1{
+  font-size: 40px;
+  letter-spacing: 1px;
+  margin-left: 180px;
+}
+ #service{
+ margin-left: 200px;
+}
+.left2 p{
+  font-family: 'Gumela Regular';
+  color: var(--gray);
+  font-size: 17px;
+  text-align: center;
+}
+.services{
+  display: flex;
+  flex-direction: row;
+}
+.cart{
+  height: 340px;
+  width: 280px;
+  border: 7px solid var(--orangeCard);
+  border-radius: 20px;
+  box-shadow: 0px 20px 24px 3px rgba(250, 172, 47, 0.45);
+}
+.cart img{
+  height: 90px;
+  width: 90px;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+.cart h3{
+  font-family: 'Gumela Regular';
+  color: var(--black);
+  margin-left: 110px;
+  margin-top: 10px;
+}
+.cart p{
+  font-family: 'Gumela Regular';
+  color: var(--gray);
+  width: 200px;
+  text-align: center;
+  font-size: 15px;
+  margin-left: 40px;
+}
+.cart button{
+  background-image: none;
+  background-color: white;
+  border: 1px solid rgb(119, 142, 247);
+  color: rgb(119, 142, 247);
+  box-shadow: none;
+  border-radius: 13px;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+#firstcart{
+  margin-left: 380px;
+  margin-top: 70px;
+}
+#secondcart{
+  margin-top: -180px;
+  margin-left: 30px;
+}
+#thirdcart{
+  margin-left: 380px;
+  margin-top: -150px;
+}
+.certficate{
+  display: flex;
+  margin-top: 150px;
+  flex-direction: row;
+}
+.certficate img{
+  height: 270px;
+  width: 380px;
+  border-radius: 10px;
+  margin-left: 200px;
+  box-shadow: 0px 25px 30px 3px rgba(250, 172, 47, 0.45);
+}
+footer{
+  background-image: linear-gradient(45deg,var(--yellow),var(--orange));
+  height: 150px;
+  margin-top: 150px;
+}
+footer h1{
+  color: var(--black);
+  font-family: var(--font-family1);
+  text-align: center;
+  margin-top: 70px;
+}
+.footericon{
+  display: flex;
+  margin-left: 590px;
+  margin-top: 40px;
+}
+.footericon img{
+  margin-right: 12px;
+}
