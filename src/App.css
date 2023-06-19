@@ -97,7 +97,7 @@ main .name{
 main p{
   color: var(--black);
   font-size: 18px;
-  font-family: var(--font-family1);
+  font-family: 'Gumela Regular';
   width: 600px;
   text-align: left;
   margin-top: 30px;
