@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/first_react_project/static/css/main.f4e2c012.css",
+    "main.js": "/first_react_project/static/js/main.7affe742.js",
+    "static/js/787.32d91862.chunk.js": "/first_react_project/static/js/787.32d91862.chunk.js",
+    "static/media/Gumela_Regular.otf": "/first_react_project/static/media/Gumela_Regular.0ae83c6988a536716eb4.otf",
+    "index.html": "/first_react_project/index.html",
+    "main.f4e2c012.css.map": "/first_react_project/static/css/main.f4e2c012.css.map",
+    "main.7affe742.js.map": "/first_react_project/static/js/main.7affe742.js.map",
+    "787.32d91862.chunk.js.map": "/first_react_project/static/js/787.32d91862.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4e2c012.css",
+    "static/js/main.7affe742.js"
+  ]
+}
