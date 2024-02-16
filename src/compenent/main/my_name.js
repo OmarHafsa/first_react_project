@@ -6,7 +6,7 @@ export default function my_name(){
              <div className="left">
                 <h1>Hy! I am</h1>
                 <h1 className="name">Hafsa Omar</h1>
-                <p>I am a computer science student in the first year i can create website using html, Css, Js and React. and i have the ability to create mobile application using dart And I like to learn new techniques and skills .</p>
+                <p>I am a computer science student in the second year i can create website using html, Css, Js and React. and i have the ability to create mobile application using dart And I like to learn new techniques and skills .</p>
                 <button>About me</button>
                 <div className="icons">
                   <img src="images/github.png" alt="git"></img>
